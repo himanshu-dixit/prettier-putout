@@ -5,6 +5,7 @@ console.log({PRETTIER_DIR, PUTOUT_DIR})
 
 for(let dir of PRETTIER_DIR.split(" ")){
     const dirPath = `${GITHUB_WORKSPACE}/${dir}`;
+    console.log(`cd ${dirPath} && npx prettier --write . `)
     await `cd ${dirPath} && npx prettier --write . `
 }
 
