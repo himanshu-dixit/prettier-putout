@@ -12,6 +12,6 @@ for(let dir of PRETTIER_DIR.split(" ")){
 
 for(let dir of PUTOUT_DIR.split(" ")){
     const dirPath = `${GITHUB_WORKSPACE}/${dir}`;
-    await $`cd ${dirPath} && npx putout --fix . `
+    await $`cd ${dirPath} && npx putout . --fix `
 }
 
