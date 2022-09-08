@@ -25,7 +25,7 @@ runs:
     - uses: actions/setup-node@v3
       with:
         node-version: '14'
-    - run: yarn global add prettier
+    - run: yarn global add prettier putout
       shell: bash
-    - run: action.sh
+    - run: ./action.sh
       shell: bash
