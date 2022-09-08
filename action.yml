@@ -26,5 +26,6 @@ runs:
       with:
         node-version: '14'
     - run: yarn global add prettier
+      shell: bash
     - run: action.sh
       shell: bash
