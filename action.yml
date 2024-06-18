@@ -1,5 +1,5 @@
 name: 'Prettier putout action'
-description: 'Greet someone'
+description: 'Greet someone.'
 inputs:
   prettierVersion:
     description: 'Number of Octocats'
